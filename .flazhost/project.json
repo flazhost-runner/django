@@ -7,7 +7,7 @@
   "migrate": [
     "python manage.py migrate"
   ],
-  "start": "python manage.py runserver 0.0.0.0:8000",
-  "url": "http://localhost:8000",
+  "start": "python manage.py runserver 0.0.0.0:${APP_PORT}",
+  "url": "http://localhost:${APP_PORT}",
   "readyPath": "/"
 }
